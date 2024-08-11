@@ -1,0 +1,21 @@
+{
+  "name": "autoraidsbot",
+  "version": "1.0.0",
+  "description": "[![GitHub license](https://img.shields.io/github/license/nectariferous/AutoRaidsBot.svg)](https://github.com/nectariferous/AutoRaidsBot/blob/main/LICENSE) [![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/AutoRaidsBot)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "node-schedule": "^2.1.1",
+    "telegraf": "^4.16.3"
+  }
+}

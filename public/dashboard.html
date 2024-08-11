@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - AutoRaidsBot</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to Your Dashboard</h1>
+            <div id="user-info"></div>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="total-raiders">0</div>
+                    <div>Total Raiders</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="active-raids">0</div>
+                    <div>Active Raids</div>
+                </div>
+            </div>
+            <div class="premium-badge">
+                <i class="fas fa-crown"></i> Premium Member
+            </div>
+            <a href="https://t.me/AutoRaidsBot?start=dashboard" class="btn">Open Bot</a>
+            <button onclick="logout()" class="btn">Log out</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

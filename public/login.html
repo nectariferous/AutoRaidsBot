@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AutoRaidsBot</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://telegram.org/js/telegram-widget.js" async></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>AutoRaidsBot</h1>
+            <div id="login-content">
+                <h2>Authorize with Telegram</h2>
+                <p>Click the button below to authorize and whitelist yourself for AutoRaidsBot:</p>
+                <div id="telegram-login-container"></div>
+            </div>
+            <div id="logged-in-content" style="display: none;">
+                <h2>Welcome, <span id="user-name"></span>!</h2>
+                <p>You're already authorized.</p>
+                <button id="logout-button">Logout</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
