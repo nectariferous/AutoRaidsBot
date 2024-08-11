@@ -35,6 +35,6 @@ try {
   die ($e->getMessage());
 }
 
-header('Location: login_example.php');
+header('Location: login.php');
 
 ?>
